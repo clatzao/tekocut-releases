@@ -15,7 +15,7 @@ Esse link sempre baixa a versão mais recente (cerca de 250 MB). Versões anteri
 | | |
 | --- | --- |
 | Sistema | Windows 10 ou 11, 64 bits |
-| Espaço | cerca de 700 MB para o programa, mais espaço para as cópias de edição dos seus vídeos |
+| Espaço | cerca de 800 MB para o programa, mais espaço para as cópias de edição dos seus vídeos |
 | Vídeo | uma placa ou chip gráfico com WebGL2 (praticamente qualquer um dos últimos 10 anos). Sem ele, o app funciona, mas sem efeitos, máscaras, chroma key e correção de cor avançada |
 | Internet | não é necessária; só é usada para procurar atualizações |
 
