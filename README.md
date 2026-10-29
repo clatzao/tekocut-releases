@@ -127,6 +127,10 @@ Em **Configurações do Windows > Aplicativos**, procure **TekoCut** e clique em
 
 ## Histórico de versões
 
+### 1.1.1 (29/10/2026)
+- Ao diminuir a janela, os painéis se ajustam em vez de serem cortados; a prévia sempre tem lugar, e os tamanhos que você escolheu voltam quando a janela cresce.
+- Os controles da prévia passam para uma segunda linha quando falta espaço.
+
 ### 1.1.0 (28/10/2026)
 - Imagens de exemplo em efeitos, transições, filtros e animações; elas se mexem ao passar o mouse.
 - A animação de abertura volta a aparecer quando as animações do Windows estão desligadas.
