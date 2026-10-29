@@ -21,23 +21,24 @@ Esse link sempre baixa a versão mais recente (cerca de 250 MB). Versões anteri
 
 O FFmpeg já vem dentro do instalador. Não é preciso instalar mais nada.
 
-## Android (prévia)
+## Android
 
 **[Baixar o TekoCut para Android (TekoCut.apk)](https://github.com/clatzao/tekocut-releases/releases/latest/download/TekoCut.apk)** · Android 10 ou mais novo
 
-O app de Android está no começo. Já funciona:
-- criar e abrir projetos;
-- importar fotos, vídeos e sons;
-- editar com o mesmo editor do PC;
-- exportar em MP4, MOV e WAV para a galeria (Filmes/TekoCut).
+O editor completo no celular, com a tela pensada para o toque:
+- imagem em cima, linha do tempo embaixo e uma barra de ferramentas que abre os painéis;
+- segure um clipe para arrastar, pinça para dar zoom na linha do tempo, dois dedos na imagem para mudar tamanho e girar;
+- textos, legendas, efeitos, filtros, transições, animações, adesivos, sons, quadros-chave, máscaras, chroma key e o resto do editor;
+- **legendas automáticas** no próprio celular (o modelo Whisper é baixado uma vez, 41 ou 77 MB);
+- gravar narração, filmar ou tirar foto direto para o projeto, remover o fundo de fotos;
+- exportar em MP4, MOV, HEVC (se o celular tiver o codificador), GIF, WAV e MP3 para a galeria;
+- atualizações dentro do app (Configurações > Atualizações).
 
-Ainda falta:
-- **a tela pensada para celular:** por enquanto é a mesma do PC, em tamanho reduzido;
-- o que depende do FFmpeg (MP3, HEVC, GIF, reverter, reduzir ruído…);
-- as legendas automáticas;
-- as atualizações automáticas: por enquanto, baixe o APK novo por este mesmo link.
+Não existem no celular: manter o tom na velocidade, câmera lenta suave, reduzir ruído, melhorar voz e mudar voz,
+estabilizar, reverter, clipe composto e controle por IA (precisam do FFmpeg ou de um PC).
 
 Para instalar, abra o APK no celular e permita **instalar apps desta fonte** quando o Android pedir.
+O app ainda não foi testado em muitos celulares: avise se algo não funcionar no seu.
 
 ## Instalar
 
@@ -131,6 +132,7 @@ Num processador antigo, a transcrição leva cerca de 3 vezes a duração da fal
 
 - Tudo é feito e guardado no seu computador: mídia, projetos, legendas, sons e exportações.
 - A única conexão que o TekoCut faz é procurar atualizações neste repositório, que baixa só o instalador. Nada seu é enviado.
+- No celular, as legendas automáticas baixam o modelo de fala do Hugging Face (huggingface.co) quando você toca em Baixar. O áudio é transcrito no próprio celular.
 - O controle por IA só aceita conexões do próprio PC (127.0.0.1) e com senha.
 
 ## Onde ficam seus dados
@@ -157,6 +159,13 @@ Em **Configurações do Windows > Aplicativos**, procure **TekoCut** e clique em
 - Ainda não tem: modelos prontos (templates), legendas bilíngues/tradução, texto para fala, separar voz e música, aumentar resolução, reenquadrar automaticamente, rastreamento de movimento e cortes curtos automáticos de vídeos longos.
 
 ## Histórico de versões
+
+### 1.4.0 (29/10/2026)
+- Android: a tela do celular (barra de ferramentas, painéis que sobem de baixo) e os gestos de toque.
+- Android: legendas automáticas no celular, com o modelo baixado dentro do app.
+- Android: exporta MP3, GIF e HEVC; normalizar volume, marcar batidas e dividir cenas funcionam no celular.
+- Android: narração, filmar e fotografar direto para o projeto, remover o fundo de fotos, adesivos e sons que já vêm no app.
+- Android: ícone, tela de abertura e atualizações dentro do app.
 
 ### 1.3.0 (29/10/2026)
 - Muito mais conteúdo, tudo feito para o TekoCut ou com licença aberta:
