@@ -98,6 +98,13 @@ Para instalar, abra o APK no celular e permita **instalar apps desta fonte** qua
 - Codificação pela placa de vídeo quando disponível, com volta automática para o processador.
 - Capa do vídeo, e conferência do arquivo exportado (duração e sincronia do som).
 
+### Conteúdo que já vem instalado
+- **Efeitos, transições e animações:** 47 efeitos, 42 transições e 48 animações, todos com imagem de exemplo.
+- **Filtros e fontes:** 58 filtros e 49 fontes (Google Fonts).
+- **Textos e adesivos:** 50 estilos de texto e 101 adesivos (formas, setas, balões, carinhas, clima, natureza, objetos, palavras e pixel art).
+- **Sons:** 39 efeitos sonoros e 12 músicas de fundo.
+- Tudo foi feito para o TekoCut ou tem licença aberta. As fontes estão listadas em [THIRD-PARTY](https://github.com/clatzao/tekocut-releases/blob/main/THIRD-PARTY.md).
+
 ### Pacotes: mais efeitos, transições e animações
 - Um arquivo **.tekopack** traz efeitos, transições e animações novos, e pode trazer fontes, LUTs e adesivos.
 - Para usar, clique em **Importar pacote…** na aba Efeitos ou Transições, ou vá em **Configurações > Pacotes**. Os itens aparecem nas abas com imagem de exemplo.
@@ -150,6 +157,15 @@ Em **Configurações do Windows > Aplicativos**, procure **TekoCut** e clique em
 - Ainda não tem: modelos prontos (templates), legendas bilíngues/tradução, texto para fala, separar voz e música, aumentar resolução, reenquadrar automaticamente, rastreamento de movimento e cortes curtos automáticos de vídeos longos.
 
 ## Histórico de versões
+
+### 1.3.0 (29/10/2026)
+- Muito mais conteúdo, tudo feito para o TekoCut ou com licença aberta:
+  - 47 efeitos, 42 transições e 48 animações novos;
+  - 58 filtros;
+  - 49 fontes do Google Fonts;
+  - 50 estilos de texto;
+  - 101 adesivos;
+  - 39 efeitos sonoros e 12 músicas de fundo.
 
 ### 1.2.0 (29/10/2026)
 - Primeira versão de Android (prévia), em [TekoCut.apk](https://github.com/clatzao/tekocut-releases/releases/latest/download/TekoCut.apk).
