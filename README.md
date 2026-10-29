@@ -21,6 +21,24 @@ Esse link sempre baixa a versão mais recente (cerca de 250 MB). Versões anteri
 
 O FFmpeg já vem dentro do instalador. Não é preciso instalar mais nada.
 
+## Android (prévia)
+
+**[Baixar o TekoCut para Android (TekoCut.apk)](https://github.com/clatzao/tekocut-releases/releases/latest/download/TekoCut.apk)** · Android 10 ou mais novo
+
+O app de Android está no começo. Já funciona:
+- criar e abrir projetos;
+- importar fotos, vídeos e sons;
+- editar com o mesmo editor do PC;
+- exportar em MP4, MOV e WAV para a galeria (Filmes/TekoCut).
+
+Ainda falta:
+- **a tela pensada para celular:** por enquanto é a mesma do PC, em tamanho reduzido;
+- o que depende do FFmpeg (MP3, HEVC, GIF, reverter, reduzir ruído…);
+- as legendas automáticas;
+- as atualizações automáticas: por enquanto, baixe o APK novo por este mesmo link.
+
+Para instalar, abra o APK no celular e permita **instalar apps desta fonte** quando o Android pedir.
+
 ## Instalar
 
 1. Baixe o `TekoCut-Setup.exe` pelo link acima.
@@ -80,6 +98,12 @@ O FFmpeg já vem dentro do instalador. Não é preciso instalar mais nada.
 - Codificação pela placa de vídeo quando disponível, com volta automática para o processador.
 - Capa do vídeo, e conferência do arquivo exportado (duração e sincronia do som).
 
+### Pacotes: mais efeitos, transições e animações
+- Um arquivo **.tekopack** traz efeitos, transições e animações novos, e pode trazer fontes, LUTs e adesivos.
+- Para usar, clique em **Importar pacote…** na aba Efeitos ou Transições, ou vá em **Configurações > Pacotes**. Os itens aparecem nas abas com imagem de exemplo.
+- Para começar, baixe o [pacote de exemplo](https://github.com/clatzao/tekocut-releases/releases/download/v1.2.0/example.tekopack): 3 efeitos, 3 transições, 3 animações, uma LUT e um adesivo.
+- Para criar os seus, siga o [guia do formato](PACKS.md). Efeitos e transições são GLSL, e as transições usam o mesmo formato do [gl-transitions](https://gl-transitions.com), então dá para aproveitar as de lá (respeitando a licença de cada uma). Animações são quadros-chave em JSON.
+
 ### Controle por IA (opcional)
 - Em **Configurações > Controle por IA**, o TekoCut abre um servidor MCP local (só em 127.0.0.1, com senha).
 - Claude, outros clientes MCP e modelos locais (Ollama) podem editar a linha do tempo, ver quadros e a transcrição, importar e exportar.
@@ -126,6 +150,11 @@ Em **Configurações do Windows > Aplicativos**, procure **TekoCut** e clique em
 - Ainda não tem: modelos prontos (templates), legendas bilíngues/tradução, texto para fala, separar voz e música, aumentar resolução, reenquadrar automaticamente, rastreamento de movimento e cortes curtos automáticos de vídeos longos.
 
 ## Histórico de versões
+
+### 1.2.0 (29/10/2026)
+- Primeira versão de Android (prévia), em [TekoCut.apk](https://github.com/clatzao/tekocut-releases/releases/latest/download/TekoCut.apk).
+- Pacotes (.tekopack): importe efeitos, transições e animações novos, além de fontes, LUTs e adesivos, num arquivo só. Veja em Configurações > Pacotes.
+- Pacote de exemplo e guia para criar os seus.
 
 ### 1.1.1 (29/10/2026)
 - Ao diminuir a janela, os painéis se ajustam em vez de serem cortados; a prévia sempre tem lugar, e os tamanhos que você escolheu voltam quando a janela cresce.
