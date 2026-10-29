@@ -26,8 +26,10 @@ O FFmpeg já vem dentro do instalador. Não é preciso instalar mais nada.
 **[Baixar o TekoCut para Android (TekoCut.apk)](https://github.com/clatzao/tekocut-releases/releases/latest/download/TekoCut.apk)** · Android 10 ou mais novo
 
 O editor completo no celular, com a tela pensada para o toque:
-- imagem em cima, linha do tempo embaixo e uma barra de ferramentas que abre os painéis;
-- segure um clipe para arrastar, pinça para dar zoom na linha do tempo, dois dedos na imagem para mudar tamanho e girar;
+- como nos editores de celular: o cursor fica parado no meio e a linha do tempo desliza por baixo (arraste para andar no tempo, pinça para zoom);
+- toque num clipe e a barra de baixo vira as ferramentas dele (Dividir, Velocidade, Volume, Animação, Ajustar, Filtros, Espelhar, Girar, Congelar…); a seta volta;
+- o + no fim dos clipes adiciona mídia; os painéis sobem de baixo e fecham no ✓;
+- segure um clipe para arrastar, dois dedos na imagem para mudar tamanho e girar;
 - textos, legendas, efeitos, filtros, transições, animações, adesivos, sons, quadros-chave, máscaras, chroma key e o resto do editor;
 - **legendas automáticas** no próprio celular (o modelo Whisper é baixado uma vez, 41 ou 77 MB);
 - gravar narração, filmar ou tirar foto direto para o projeto, remover o fundo de fotos;
@@ -159,6 +161,9 @@ Em **Configurações do Windows > Aplicativos**, procure **TekoCut** e clique em
 - Ainda não tem: modelos prontos (templates), legendas bilíngues/tradução, texto para fala, separar voz e música, aumentar resolução, reenquadrar automaticamente, rastreamento de movimento e cortes curtos automáticos de vídeos longos.
 
 ## Histórico de versões
+
+### 1.5.0 (29/10/2026)
+- Android: o editor do celular refeito no jeito dos apps de edição de celular: cursor fixo no meio, linha do tempo deslizando, barra de ferramentas do clipe tocado, + para adicionar mídia, painéis com ✓, barra de reprodução enxuta e o formato (proporção) num painel próprio.
 
 ### 1.4.0 (29/10/2026)
 - Android: a tela do celular (barra de ferramentas, painéis que sobem de baixo) e os gestos de toque.
