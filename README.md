@@ -162,6 +162,9 @@ Em **Configurações do Windows > Aplicativos**, procure **TekoCut** e clique em
 
 ## Histórico de versões
 
+### 1.5.1 (03/11/2026)
+- Android: o editor não fica mais por baixo da barra de status e da barra de navegação do celular; os ícones dessas barras ficam claros no fundo escuro.
+
 ### 1.5.0 (29/10/2026)
 - Android: o editor do celular refeito no jeito dos apps de edição de celular: cursor fixo no meio, linha do tempo deslizando, barra de ferramentas do clipe tocado, + para adicionar mídia, painéis com ✓, barra de reprodução enxuta e o formato (proporção) num painel próprio.
 
