@@ -21,6 +21,8 @@ Esse link sempre baixa a versão mais recente (cerca de 250 MB). Versões anteri
 
 O FFmpeg já vem dentro do instalador. Não é preciso instalar mais nada.
 
+Em computadores mais simples (notebooks com processador fraco ou pouca memória), o **modo leve** liga sozinho: cópias de edição menores, exemplos parados e menos animação. Dá para ligar ou desligar em **Configurações > Desempenho**.
+
 ## Android
 
 **[Baixar o TekoCut para Android (TekoCut.apk)](https://github.com/clatzao/tekocut-releases/releases/latest/download/TekoCut.apk)** · Android 10 ou mais novo
@@ -68,7 +70,14 @@ O app ainda não foi testado em muitos celulares: avise se algo não funcionar n
 - Velocidade constante ou curvas de velocidade, câmera lenta suave, manter o tom da voz ao acelerar.
 - Pré-visualização ao passar o mouse na linha do tempo, J/K/L, qualidade da prévia ajustável.
 - Desfazer/refazer (200 passos), salvamento automático, histórico de versões com restauração.
-- Atalhos de teclado personalizáveis; interface em português ou inglês.
+- Faixas numeradas no estilo Vegas, com Solo e controles próprios (nível, volume, pan); o som do vídeo pode ir numa faixa própria; fades puxados pelos cantos do clipe.
+- Menus de botão direito completos nos clipes e nas faixas; paleta de comandos (Ctrl+K).
+- Atalhos de teclado personalizáveis, com conjuntos prontos no jeito do TekoCut, Sony Vegas, Premiere e After Effects; interface em português ou inglês.
+
+### Modelos e títulos prontos
+- 12 modelos de vídeo (verticais para Reels/TikTok/Shorts e horizontais para YouTube): escolha suas fotos e vídeos e o modelo monta a edição com títulos, transições, cores, zooms, efeitos e música. Tudo continua editável.
+- 12 títulos animados (nome e função, inscreva-se, contagem 3 2 1, capítulo e outros).
+- Destinos de exportação prontos: YouTube, Reels/TikTok/Shorts, Stories, feed do Instagram, X, LinkedIn, WhatsApp, 60 fps, cópia mestre e GIF.
 
 ### Imagem e cor
 - Vídeos e fotos; transformar, opacidade, modos de mesclagem, máscaras, chroma key (fundo verde).
@@ -158,9 +167,15 @@ Em **Configurações do Windows > Aplicativos**, procure **TekoCut** e clique em
 - No J/K/L, só a velocidade normal para frente tem som.
 - A remoção de fundo encontra pessoas (melhor com uma ou duas pessoas perto da câmera).
 - Efeitos não aceitam keyframes, e animações não podem ser salvas como predefinições suas.
-- Ainda não tem: modelos prontos (templates), legendas bilíngues/tradução, texto para fala, separar voz e música, aumentar resolução, reenquadrar automaticamente, rastreamento de movimento e cortes curtos automáticos de vídeos longos.
+- Ainda não tem: salvar o seu projeto como modelo, legendas bilíngues/tradução, texto para fala, separar voz e música, aumentar resolução, reenquadrar automaticamente, rastreamento de movimento e cortes curtos automáticos de vídeos longos.
 
 ## Histórico de versões
+
+### 1.6.0 (13/11/2026)
+- Modelos de vídeo: escolha suas fotos e vídeos e o modelo monta a edição (12 modelos, verticais e horizontais); 12 títulos animados; mais destinos de exportação.
+- Linha do tempo no estilo Vegas (faixas numeradas com Solo e controles próprios, faixas que aparecem e somem), menus de botão direito e conjuntos de atalhos (Vegas, Premiere, After Effects).
+- Aparência nova: destaque roxo íris, fonte IBM Plex Sans, textos mais curtos; tamanho da interface, cinza neutro, paleta de comandos e fotos reais nos exemplos.
+- Mais leve: a reprodução gasta bem menos processador, projetos grandes ficam rápidos, as abas abrem na hora, exportar não trava o resto do PC, e o modo leve para computadores mais simples.
 
 ### 1.5.1 (03/11/2026)
 - Android: o editor não fica mais por baixo da barra de status e da barra de navegação do celular; os ícones dessas barras ficam claros no fundo escuro.
