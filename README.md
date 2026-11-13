@@ -108,7 +108,8 @@ O app ainda não foi testado em muitos celulares: avise se algo não funcionar n
 - MP4 (H.264 ou HEVC), MOV, GIF, MP3/WAV (só áudio), SRT/TXT (legendas).
 - De 480p a 4K, até 60 fps, taxa de bits ajustável, exportar só um trecho (marcar entrada e saída com I e O).
 - Codificação pela placa de vídeo quando disponível, com volta automática para o processador.
-- Capa do vídeo, e conferência do arquivo exportado (duração e sincronia do som).
+- **Capa montada:** fundo (quadro do vídeo, foto ou cor), títulos e adesivos, com uma capa para cada formato (igual ao vídeo, YouTube 1280×720, vertical e quadrada). Vai embutida no MP4/MOV e salva como JPG ao lado do vídeo, ou é exportada sozinha.
+- Conferência do arquivo exportado (duração e sincronia do som).
 
 ### Conteúdo que já vem instalado
 - **Efeitos, transições e animações:** 47 efeitos, 42 transições e 48 animações, todos com imagem de exemplo.
@@ -170,6 +171,9 @@ Em **Configurações do Windows > Aplicativos**, procure **TekoCut** e clique em
 - Ainda não tem: salvar o seu projeto como modelo, legendas bilíngues/tradução, texto para fala, separar voz e música, aumentar resolução, reenquadrar automaticamente, rastreamento de movimento e cortes curtos automáticos de vídeos longos.
 
 ## Histórico de versões
+
+### 1.7.0 (13/11/2026)
+- Capa montada: fundo (quadro do vídeo, foto ou cor), títulos e adesivos arrastáveis, uma capa para cada formato (igual ao vídeo, YouTube, vertical, quadrada). Vai embutida no vídeo e salva ao lado dele, ou é exportada sozinha.
 
 ### 1.6.0 (13/11/2026)
 - Modelos de vídeo: escolha suas fotos e vídeos e o modelo monta a edição (12 modelos, verticais e horizontais); 12 títulos animados; mais destinos de exportação.
