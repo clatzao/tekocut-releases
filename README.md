@@ -70,6 +70,9 @@ O app ainda não foi testado em muitos celulares: avise se algo não funcionar n
 - Velocidade constante ou curvas de velocidade, câmera lenta suave, manter o tom da voz ao acelerar.
 - Pré-visualização ao passar o mouse na linha do tempo, J/K/L, qualidade da prévia ajustável.
 - Desfazer/refazer (200 passos), salvamento automático, histórico de versões com restauração.
+- Edição no estilo Vegas: deslocar todas as faixas juntas (Ctrl+L), reprodução em loop, slip e slide, crossfade sobrepondo clipes, envelopes de opacidade e volume no próprio clipe.
+- Barra de menus e painéis encaixáveis (arraste para qualquer lado, layouts prontos e salvos por nome); painéis Explorador (as pastas do PC), Aparador (adicionar só um trecho de um arquivo) e Mixer (volume, pan, mudo e solo por faixa, medidores).
+- Temas de cor (Grafite e neon, VEGAS clássico, Claro, Alto contraste, ou as suas cores) e fonte da interface.
 - Faixas numeradas no estilo Vegas, com Solo e controles próprios (nível, volume, pan); o som do vídeo pode ir numa faixa própria; fades puxados pelos cantos do clipe.
 - Menus de botão direito completos nos clipes e nas faixas; paleta de comandos (Ctrl+K).
 - Atalhos de teclado personalizáveis, com conjuntos prontos no jeito do TekoCut, Sony Vegas, Premiere e After Effects; interface em português ou inglês.
@@ -84,13 +87,14 @@ O app ainda não foi testado em muitos celulares: avise se algo não funcionar n
 - Fundo da tela (desfoque, cor ou imagem), formatos 16:9, 9:16, 1:1 e outros.
 - Correção de cor: brilho, contraste, saturação, exposição, temperatura, HSL por cor, curvas, rodas de cor, LUTs (.cube), cor automática e "igualar cor".
 - Filtros prontos, camada de ajuste, estabilização.
+- Escopos de cor: forma de onda, parada RGB, vetorscópio e histograma.
 - **Remover o fundo** de pessoas em vídeos e fotos, com pincel para corrigir a borda (o modelo roda no seu PC).
 
 ### Efeitos, transições e animações
 - Efeitos (vinheta, grão de filme, desfoque, brilho, tremor, separação de cores, pixelado, linhas de TV…) com busca e favoritos.
 - Transições (fusão, mergulho no preto, deslizar, cortina, zoom).
 - Animações de entrada, saída e combo para clipes, fotos e textos.
-- Cada opção mostra uma imagem de exemplo, que se mexe quando você passa o mouse.
+- Cada opção mostra uma foto de exemplo própria, que se mexe quando você passa o mouse.
 
 ### Texto e legendas
 - Títulos com fonte, tamanho, cor, contorno, sombra, brilho, texto em curva; suas fontes e seus estilos salvos.
@@ -110,6 +114,7 @@ O app ainda não foi testado em muitos celulares: avise se algo não funcionar n
 - Codificação pela placa de vídeo quando disponível, com volta automática para o processador.
 - **Capa montada:** fundo (quadro do vídeo, foto ou cor), títulos e adesivos, com uma capa para cada formato (igual ao vídeo, YouTube 1280×720, vertical e quadrada). Vai embutida no MP4/MOV e salva como JPG ao lado do vídeo, ou é exportada sozinha.
 - Conferência do arquivo exportado (duração e sincronia do som).
+- Seus presets de exportação, fila de render (várias exportações, uma depois da outra) e prévia num segundo monitor.
 
 ### Conteúdo que já vem instalado
 - **Efeitos, transições e animações:** 47 efeitos, 42 transições e 48 animações, todos com imagem de exemplo.
@@ -171,6 +176,13 @@ Em **Configurações do Windows > Aplicativos**, procure **TekoCut** e clique em
 - Ainda não tem: salvar o seu projeto como modelo, legendas bilíngues/tradução, texto para fala, separar voz e música, aumentar resolução, reenquadrar automaticamente, rastreamento de movimento e cortes curtos automáticos de vídeos longos.
 
 ## Histórico de versões
+
+### 1.8.0 (25/11/2026)
+- Visual novo grafite e neon, ícone e abertura novos, barra de menus e painéis encaixáveis com layouts salvos.
+- Painéis novos: Explorador, Aparador, Escopos de cor e Mixer; mídia por data.
+- Linha do tempo no estilo Vegas: deslocar todas as faixas, loop, slip e slide, crossfade por sobreposição, envelopes no clipe, batidas na régua, controles de reprodução.
+- Temas de cor e fonte da interface em Configurações > Aparência; uma foto própria no exemplo de cada efeito, transição, filtro e animação.
+- Presets de exportação, fila de render e prévia num segundo monitor.
 
 ### 1.7.0 (13/11/2026)
 - Capa montada: fundo (quadro do vídeo, foto ou cor), títulos e adesivos arrastáveis, uma capa para cada formato (igual ao vídeo, YouTube, vertical, quadrada). Vai embutida no vídeo e salva ao lado dele, ou é exportada sozinha.
