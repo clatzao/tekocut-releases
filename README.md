@@ -66,7 +66,8 @@ O app ainda não foi testado em muitos celulares: avise se algo não funcionar n
 - Dividir (Ctrl+B), apagar à esquerda/direita da agulha (Q/W), cortar, mover, duplicar, copiar e colar, encaixe (snapping), seleção em caixa.
 - Agrupar e desagrupar clipes, clipes compostos (com edição por dentro), marcadores, esconder/mostrar clipes (V), vincular o vídeo ao seu som.
 - Congelar quadro, espelhar, girar 90°, cortar (crop), reverter, separar cenas automaticamente, marcadores na batida da música.
-- Keyframes em posição, escala, rotação, opacidade e volume, com curvas de aceleração editáveis.
+- Keyframes em posição, escala, rotação, opacidade, volume e força dos efeitos, com curvas de aceleração editáveis.
+- Perspectiva (cantos): encaixe um título ou imagem numa parede arrastando os quatro cantos; com keyframes, acompanha a câmera.
 - Velocidade constante ou curvas de velocidade, câmera lenta suave, manter o tom da voz ao acelerar.
 - Pré-visualização ao passar o mouse na linha do tempo, J/K/L, qualidade da prévia ajustável.
 - Desfazer/refazer (200 passos), salvamento automático, histórico de versões com restauração.
@@ -111,6 +112,7 @@ O app ainda não foi testado em muitos celulares: avise se algo não funcionar n
 ### Exportação
 - MP4 (H.264 ou HEVC), MOV, GIF, MP3/WAV (só áudio), SRT/TXT (legendas).
 - De 480p a 4K, até 60 fps, taxa de bits ajustável, exportar só um trecho (marcar entrada e saída com I e O).
+- Motion blur de verdade (Sutil, Normal, Forte): cada quadro é a média de vários quadros intermediários.
 - Codificação pela placa de vídeo quando disponível, com volta automática para o processador.
 - **Capa montada:** fundo (quadro do vídeo, foto ou cor), títulos e adesivos, com uma capa para cada formato (igual ao vídeo, YouTube 1280×720, vertical e quadrada). Vai embutida no MP4/MOV e salva como JPG ao lado do vídeo, ou é exportada sozinha.
 - Conferência do arquivo exportado (duração e sincronia do som).
@@ -176,6 +178,12 @@ Em **Configurações do Windows > Aplicativos**, procure **TekoCut** e clique em
 - Ainda não tem: salvar o seu projeto como modelo, legendas bilíngues/tradução, texto para fala, separar voz e música, aumentar resolução, reenquadrar automaticamente, rastreamento de movimento e cortes curtos automáticos de vídeos longos.
 
 ## Histórico de versões
+
+### 1.9.0 (25/11/2026)
+- Motion blur de verdade na exportação (Sutil, Normal, Forte): giros rápidos e trechos acelerados ficam com rastro, como numa câmera.
+- A força dos efeitos aceita quadros-chave (sobe e desce na batida), desenhada como uma linha no clipe de efeito.
+- Perspectiva (cantos): arraste os quatro cantos de um título ou imagem para encaixar numa parede; com quadros-chave, acompanha a câmera.
+- A prévia não corta mais 8 pixels da direita da imagem.
 
 ### 1.8.0 (25/11/2026)
 - Visual novo grafite e neon, ícone e abertura novos, barra de menus e painéis encaixáveis com layouts salvos.
